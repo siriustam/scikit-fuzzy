@@ -8,10 +8,7 @@ requires = [
 name = "scikit-fuzzy"
 dynamic = ["version"]
 description = "Fuzzy logic toolkit for SciPy"
-[project.readme]
-content-type = "text/markdown"
-file = "README.md"
-
+readme = {file = "README.md", content-type = "text/markdown"}
 license = {text = "Modified BSD"}
 maintainers = [{name = "Joshua Warner", email = "joshua.dale.warner@gmail.com"}]
 requires-python = ">=3.8"
